@@ -14,4 +14,4 @@ const event = Schema({
 	type: { type: String, enum: ['hackathon', 'workshop', 'meetup'], required: true },
 })
 
-export default mongoose.model('users', event)
+export default mongoose.model('events', event)
