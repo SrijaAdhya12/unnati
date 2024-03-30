@@ -20,9 +20,8 @@
 - [Tech Stack Used](#tech-stack-used)
 - [Preview](#preview)
 - [Demo](#demo)
-- [Designs](#designs)
 - [Contributions](#contributions)
-- [Team Mates](#team-mates)
+- [Team](#team)
 
 ![line]
 
