@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
+
 const Navbar = () => {
 	const [scrollingDown, setScrollingDown] = useState(false)
 	const location = useLocation()

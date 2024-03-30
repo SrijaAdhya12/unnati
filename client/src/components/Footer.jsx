@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedinIn, faWhatsapp, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
 	return (
@@ -57,12 +58,12 @@ const Footer = () => {
 					<h5 className="font-bold">LOCATION</h5>
 					<a className="hover:font-semibold" href="" target="_blank">
 						{' '}
-						Unnati- Rise, Empower& Thrive
-							<br/>
+						Unnati-Rise, Empower & Thrive
+						<br />
 						Main Way, Kolkata, West Bengal{' '}
 					</a>
 					<a className="hover:font-semibold" href="tel:(555) 555-5555">
-						(+91) 98315 34154
+						(+555) 55555 55555
 					</a>
 					<a className="hover:font-semibold" href="mailto:inquiries@unnati.com">
 						inquiries@unnati.com
@@ -73,18 +74,20 @@ const Footer = () => {
 			<hr className="my-20 dark:border-white border-black" />
 
 			<div className="flex justify-center gap-3 items-center">
-				<a className="border border-black dark:border-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors ease-in-out" href="">
-					<i className="fa-brands fa-x-twitter fa-xl"></i>
+				<a className="border border-black dark:border-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors ease-in-out" href="/">
+					<FontAwesomeIcon icon={faXTwitter} size="xl" />
 				</a>
-				<a className="border border-black dark:border-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors ease-in-out" href="" target="_blank">
-					<i className="fa-brands fa-github fa-xl"></i>
+				<a className="border border-black dark:border-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors ease-in-out" href="https://github.com/SrijaAdhya12/unnati" target="_blank">
+					<FontAwesomeIcon icon={faGithub} size="xl" />
 				</a>
-				<a className="border border-black dark:border-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors ease-in-out" href="">
-					<i className="fa-brands fa-linkedin-in fa-xl"></i>
+				<a className="border border-black dark:border-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors ease-in-out" href="/">
+					<FontAwesomeIcon icon={faLinkedinIn} size="xl" />
 				</a>
-				<a className="border border-black dark:border-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors ease-in-out" href=""></a>
-				<a className="border border-black dark:border-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors ease-in-out" href="">
-					<FontAwesomeIcon icon={faEnvelope} />
+				<a className="border border-black dark:border-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors ease-in-out" href="/">
+					<FontAwesomeIcon icon={faWhatsapp} size="xl" />
+				</a>
+				<a className="border border-black dark:border-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors ease-in-out" href="mailto:info@unnati.com">
+					<FontAwesomeIcon icon={faEnvelope} size="lg" />
 				</a>
 			</div>
 		</footer>
