@@ -1,7 +1,8 @@
-const SignUp = () => {
+
+const Donations = () => {
 	return (
 		<form action="" className="flex flex-col gap-3">
-			<div className="text-red-600 z-50 text-center">Sign Up</div>
+			<div className="text-red-600 z-50 text-center">Donation</div>
 			<div className="flex flex-col">
 				<label htmlFor="name">Name:</label>
 				<input type="text" placeholder="Name" className="border border-red-100 px-4" id="name" />
@@ -29,4 +30,4 @@ const SignUp = () => {
 	)
 }
 
-export default SignUp
+export default Donations

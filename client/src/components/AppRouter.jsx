@@ -1,6 +1,5 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
-import { Events, Home, Login, Profile, SignUp } from '../pages'
-// import { Contributors, Feedback, Home, RateUs } from '../pages'
+import { Articles, CheatSheets, Donations, Events, Home, JobPostings, Login, Profile, SignUp } from '../pages'
 
 const AppRouter = () => {
 	const location = useLocation()
@@ -11,6 +10,10 @@ const AppRouter = () => {
 			<Route path="/signup" element={<SignUp />} />
 			<Route path="/profile" element={<Profile />} />
 			<Route path="/events" element={<Events />} />
+			<Route path="/cheatsheets" element={<CheatSheets />} />
+			<Route path="/donations" element={<Donations />} />
+			<Route path="/jobpostings" element={<JobPostings />} />
+			<Route path="/articles" element={<Articles />} />
 		</Routes>
 	)
 }
