@@ -10,7 +10,9 @@ const Testimonials = () => {
 			<h1 className="font-roboto text-4xl font-bold mb-10">Testimonials</h1>
 			<Carousel showArrows={true}>
 				{testimonials.map((testimony) => (
-					<TestimonialCard key={testimony.id} {...testimony} />
+					<TestimonialCard key={testimony.id} {...testimony}>
+						<img src={testimony.image} className="z-10" />
+					</TestimonialCard>
 				))}
 			</Carousel>
 		</section>
