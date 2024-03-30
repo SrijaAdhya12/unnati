@@ -8,6 +8,8 @@ router.get('/', getAllEvents)
 router.get('/hackathons', getHackathons)
 router.get('/workshops', getWorkshops)
 router.get('/meetups', getMeetups)
+router.post('/', createEvent)
 router.put('/:id', updateEvent)
+
 
 export default router
