@@ -1,20 +1,15 @@
-    updated: Sunday, 31th March 2024
+    updated: Sunday, 31st March 2024
 
 <div align=center>
     <a href="https://github.com/SrijaAdhya12/unnati">
-        <img width=200 src="https://github-production-user-asset-6210df.s3.amazonaws.com/75939390/244920666-33f03176-059a-43ed-b2a6-c9c492f75d14.png" alt="Unnati">
+        <img width=200 src="" alt="unnati">
     </a>
     <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic">Empowering women in Tech</p>
-    <a href="https://deepsource.io/gh/SrijaAdhya12/unnati/?ref=repository-badge">
-        <img src="https://deepsource.io/gh/warmachine028/memories.svg/?label=active+issues&show_trend=true&token=yo-jfXJvA6yZ9Kbag8WQCuj2" alt="DeepSource">
-    </a>
 </div>
 
 # [Unnati](https://unnnati.vercel.app/)
 
 ![line]
-
-
 
 ## Table of Contents
 
@@ -32,35 +27,33 @@
 ![line]
 
 ## Domain
+
 - Women Empowerment
 
 ![line]
 
 ## Problem Statement
 
-- Develop innovative solutions to address systemic barriers hindering women's empowerment, fostering gender equality, and promoting inclusivity across various sectors such as technology, education etc.
-
-- When women are not empowered, it restricts their participation in the workforce and limits their access to education and skills development opportunities. This results in a loss of potential talent and productivity for the economy.
-
+- To develop an innovative solution to address systemic barriers hindering women's developement, fostering gender equality and promoting inclusivity across various sectors such as technology, education, science and engineering etc.
+- When women are not empowered, it restricts their participation in the workforce and limits their access to education and skills development opportunities.
+- This results in a loss of potential talent and productivity for the economy.
 
 ![line]
 
 ## Proposed Solution
 
 - Discover empowering blogs and articles tailored to women's personal and professional growth. From inspiring stories to practical tips on self-care and career advancement, find resources to help you thrive with confidence and resilience.
-
 - Get ahead with exclusive job and internship opportunities meant for female camdidated delivered directly through our website. Stay informed about the latest openings tailored to your interests.
-
 - To find information regarding female hackathons and meetups
-
 - Users can donate money which will be used for female education and other healthcare purpose.
 
 ![line]
 
 ## Future Scope
 
-- More features
-- Better User Interface
+- Add Stripe payment to accept donations.
+- Add more secure authentication protocols using Aadhar or PAN card.
+- Low interest loan system for poverty striken women.
 
 ![line]
 
@@ -82,28 +75,36 @@
 
 ## Preview
 
-![preview](https://github.com/warmachine028/memories/assets/75939390/6b1ab1f2-42d1-4283-ba4d-1163f2a156d0)
+![preview](preview.png)
 
 ![line]
 
 ## Demo
 
-![Demo](https://github.com/warmachine028/memories/raw/main/assets/demo.gif)
+![Demo](demo.gif)
 
 ![line]
-
-
-
 
 ## Contributions
 
-- [Pritam Kundu](https://github.com/warmachine028) : Backend and Frontend
-- [Srija Adhya](https://github.com/SrijaAdhya12) : Frontend and Design
+- [Srija Adhya](https://github.com/SrijaAdhya12):
+    - Team Management
+    - Task Deligation
+    - Project Layout
+    - FrontEnd
+    - Designing
+    - Ideation
 
+- [Pritam Kundu](https://github.com/warmachine028):
+    - Repository Management
+    - BackEnd
+    - FrontEnd
+    - Database Management
+    - Deployment
 
 ![line]
 
-## Team Mates
+## Team
 
 <div align="center">
     <a  href="https://github.com/SrijaAdhya12/unnati">
@@ -112,10 +113,8 @@
 </div>
 
 
-### Thank you, everyone! 💚
-
-
+### Happy Hacking! 💚
 
 [line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
 
-<!-- 29/03/24 -->
+<!-- 31/03/24 -->
