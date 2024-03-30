@@ -1,5 +1,7 @@
-import { useEffect, useState } from 'react'
 import './App.css'
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import { useEffect, useState } from 'react'
 import { fetchData } from './services/api'
 
 const App = () => {
@@ -16,7 +18,11 @@ const App = () => {
 		getData()
 	}, [])
 
-	return <h1 className="text-3xl font-bold underline">{welcomeText}</h1>
+	return (
+		<>
+			<Navbar />
+			<Home />
+		</>
+	)
 }
 
-export default App
