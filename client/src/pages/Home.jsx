@@ -7,7 +7,9 @@ const Home = () => {
 				<Hero />
 			</div>
 			<Features />
-			<Donate />
+			<div className="bg-red-100">
+				<Donate />
+			</div>
 			<Testimonials />
 		</main>
 	)
