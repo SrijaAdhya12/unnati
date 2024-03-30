@@ -29,20 +29,24 @@ const Navbar = () => {
 	]
 
 	return (
-		<header className={`xl:w-full bg-red-100 md:px-20 sticky top-0 ${scrollingDown && 'shadow-lg'}`}>
+		<header className={`xl:w-full bg-red-100 md:px-20 sticky top-0 ${scrollingDown && 'shadow-lg'} z-50`}>
 			<div className="container px-5 py-3 mx-auto flex justify-between items-center">
 				<a href="/">
 					<img src="./logo.png" alt="logo" width={200} />
 				</a>
 				{inHome && (
-					<div className="flex space-x-20">
+					<div className="flex gap-20 items-center">
 						{navItems.map((item, index) => (
 							<button key={index} onClick={() => smoothScrollTo(item.target)}>
 								{item.label}
 							</button>
 						))}
 						<a href="/signup">Sign up</a>
-						<a href="/profile">Profile</a>
+						<a href="/profile">
+							<div className='rounded-full w-10 h-10 bg-white border-black border-2'>
+								<img src="./" alt="" />
+							</div>
+						</a>
 					</div>
 				)}
 			</div>
