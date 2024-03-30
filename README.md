@@ -2,7 +2,7 @@
 
 <div align=center>
     <a href="https://github.com/SrijaAdhya12/unnati">
-        <img width=200 src="" alt="unnati">
+        <img width=200 src="https://github.com/warmachine028/unnati/assets/75939390/aba15eb0-a350-4a5a-a1cd-827023ce8373" alt="unnati">
     </a>
     <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic">Empowering women in Tech</p>
 </div>
