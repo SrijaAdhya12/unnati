@@ -1,21 +1,20 @@
 import express from 'express'
 import cors from 'cors'
+import mongoose from 'mongoose'
+import dotenv from 'dotenv'
+import { authRoutes, userRoutes } from './routes/index.js'
+
+dotenv.config()
 
 const app = express()
-const PORT = process.env.PORT || 5000
-
 app.use(cors()) // Enable CORS for all routes
-
 app.get('/', (_, res) => res.send('Hello from unnati server'))
 
-app.get('/data', (req, res) => {
-	const data = [
-		{ id: 1, name: 'Item 1' },
-		{ id: 2, name: 'Item 2' },
-		{ id: 3, name: 'Item 3' },
-	]
+app.use('/auth', authRoutes)
+app.use('/user', userRoutes)
 
-	res.json(data) // Send JSON response
-})
-
-app.listen(PORT, () => console.log(`Server🚀 running on port ${PORT}`))
+mongoose
+	.connect(process.env.CONNECTION_URL)
+	.then(console.log('Connected to MongoDB Database 🌐'))
+	.then(() => app.listen(process.env.PORT, () => console.log(`Server running on port: ${process.env.PORT} 🚀`)))
+	.catch((error) => console.log(error.message))
