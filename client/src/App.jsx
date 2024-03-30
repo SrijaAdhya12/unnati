@@ -21,8 +21,10 @@ const App = () => {
 
 	return (
 		<>
-			<Navbar />
-			<Home />
+			<div className="bg-red-100 pt-5">
+				<Navbar />
+				<Home />
+			</div>
 		</>
 	)
 }
