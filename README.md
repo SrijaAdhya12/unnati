@@ -25,11 +25,7 @@
 
 ![line]
 
-## Domain
 
-- Women Empowerment
-
-![line]
 
 ## Problem Statement
 
@@ -39,6 +35,13 @@
 
 ![line]
 
+## Domain
+
+- Women Empowerment
+
+![line]
+
+
 ## Proposed Solution
 
 - Discover empowering blogs and articles tailored to women's personal and professional growth. From inspiring stories to practical tips on self-care and career advancement, find resources to help you thrive with confidence and resilience.
@@ -47,6 +50,7 @@
 - Users can donate money which will be used for female education and other healthcare purpose.
 
 ![line]
+
 
 ## Future Scope
 
@@ -74,7 +78,8 @@
 
 ## Preview
 
-![preview](preview.png)
+![Macbook-Air-unnnati vercel app](https://github.com/SrijaAdhya12/unnati/assets/113666002/154495d6-b72f-4e09-8753-7cbbc1d65106)
+
 
 ![line]
 
@@ -84,7 +89,22 @@
 
 ![line]
 
-## Contributions
+## Installation Guide
+
+![line]
+
+## Usage
+
+![line]
+
+
+## Contributing
+
+![line]
+
+## Lisense
+
+![line]
 
 - [Srija Adhya](https://github.com/SrijaAdhya12):
     - Team Management
