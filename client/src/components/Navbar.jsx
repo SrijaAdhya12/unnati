@@ -5,6 +5,7 @@ const Navbar = () => {
 	const [scrollingDown, setScrollingDown] = useState(false)
 	const location = useLocation()
 	const inHome = location.pathname === '/'
+	const profile = null
 	useEffect(() => {
 		const handleScroll = () => {
 			const scrollTop = window.scrollY
@@ -42,12 +43,15 @@ const Navbar = () => {
 								{item.label}
 							</button>
 						))}
-						<a href="/signup">Sign up</a>
-						<a href="/profile">
-							<div className='rounded-full w-10 h-10 bg-white border-black border-2'>
-								<img src="./" alt="" />
-							</div>
-						</a>
+						{profile ? (
+							<a href="/profile">
+								<div className="rounded-full w-10 h-10 bg-white border-black border-2">
+									<img src="./" alt="" />
+								</div>
+							</a>
+						) : (
+							<a href="/signup">Sign up</a>
+						)}
 					</div>
 				)}
 			</div>
