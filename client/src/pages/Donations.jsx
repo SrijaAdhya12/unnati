@@ -1,9 +1,14 @@
 import DonationImg from '../assets/donation.png'
 import { Form } from '../components'
+const initialState = {
+	username: '',
+	email: '',
+	password: '',
+}
 
 const Donations = () => {
 	return (
-		<section id="hero" className="container mx-auto grid grid-cols-2 px-40 gap-44 mb-16">
+		<main className="container mx-auto grid grid-cols-2 px-40 gap-44 mb-16">
 			<div className="my-20">
 				<h1 className="font-bold text-4xl">Donation</h1>
 				<h3 className="text-lg mt-6">Empower women through your donations for education and healthcare development.</h3>
@@ -44,7 +49,7 @@ const Donations = () => {
 			<div className="mt-40">
 				<img src={DonationImg} alt="hero" />
 			</div>
-		</section>
+		</main>
 	)
 }
 
