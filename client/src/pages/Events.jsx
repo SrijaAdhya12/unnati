@@ -4,6 +4,7 @@ import { fetchEvents } from '../services/api'
 
 const Events = () => {
 	const [events, setEvents] = useState([])
+	const [category, setCategory] = useState('all')
 
 	useEffect(() => {
 		const getEvents = async () => {
@@ -16,12 +17,12 @@ const Events = () => {
 		}
 
 		getEvents()
-	}, [])
+	}, [category])
 	return (
 		<main>
 			<EventsHero />
-			<SearchEvents />
-			<Results {...events} />
+			<SearchEvents setCategory={setCategory} />
+			<Results events={events} category={category} />
 		</main>
 	)
 }
