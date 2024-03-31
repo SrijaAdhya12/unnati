@@ -88,6 +88,23 @@ $> npm start   # run the backEnd
 
 ![line]
 
+## Usage
+ 
+ 1. Users can navigate to the [deployed site](https://unnnati.vercel.app/).
+ 2. Donate amount for betterment of women to provide free workshops to promote developement.
+ 3. Host free Events for Women
+ 4. Login and SignUp
+ 5. See Job Postings specific to women
+ 6. Acesss career Roadmaps and cheetsheets in Resources.
+
+![line]
+
+## Contributing
+
+- See [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+![line]
+
 ## Future Scope
 
 - Add Stripe payment to accept donations.
@@ -151,6 +168,11 @@ $> npm start   # run the backEnd
     </a>
 </div>
 
+![line]
+
+## License
+
+- see [LICENSE](./LICENSE)
 
 ### Happy Hacking! 💚
 
