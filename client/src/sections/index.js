@@ -1,4 +1,7 @@
 export { default as Donate } from './Donate'
+export { default as EventsHero } from './EventsHero'
 export { default as Features } from './Features'
 export { default as Hero } from './Hero'
+export { default as Results } from './Results'
+export { default as SearchEvents } from './SearchEvents'
 export { default as Testimonials } from './Testimonials'
