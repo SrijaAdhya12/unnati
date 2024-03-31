@@ -1,7 +1,7 @@
 export const features = [
 	{
 		id: 0,
-		title: 'Resources: blogs, articles & CheatSheets',
+		title: 'Resources: blogs, articles CheatSheets & Roadmap',
 		description: "Get insightful blogs, articles and cheatsheets catering women's personal growth& career development",
 	},
 	{

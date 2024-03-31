@@ -6,12 +6,12 @@ import { TestimonialCard } from '../components'
 
 const Testimonials = () => {
 	return (
-		<section id="testimonials" className="container mx-auto mt-32 px-32">
+		<section id="testimonials" className="container mx-auto mt-32 px-32 mb-24">
 			<h1 className="font-roboto text-4xl font-bold mb-10">Testimonials</h1>
-			<Carousel showArrows={true}>
+			<Carousel showThumbs={false} showArrows={true}>
 				{testimonials.map((testimony) => (
 					<TestimonialCard key={testimony.id} {...testimony}>
-						<img src={testimony.image} className="z-10" />
+						<img src={testimony.image} className="z-10 w-64 h-96 object-cover" />
 					</TestimonialCard>
 				))}
 			</Carousel>
