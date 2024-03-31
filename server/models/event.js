@@ -10,7 +10,7 @@ const event = Schema({
 	thumbnail: { type: String, default: defaultThumbnail },
 	entryFee: { type: Number, default: 0 },
 	location: { type: String, default: 'online' },
-	organizer: { type: Schema.Types.ObjectId, ref: 'User', required: true },
+	organizer: { type: String, required: true },
 	type: { type: String, enum: ['hackathon', 'workshop', 'meetup'], required: true },
 })
 

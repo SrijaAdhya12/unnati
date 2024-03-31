@@ -2,11 +2,8 @@ import Event from '../models/event.js'
 
 // Get all events
 export const getAllEvents = async (req, res) => {
-	console.log('fetching')
-
 	try {
 		const events = await Event.find()
-		console.log('first event', events[0])
 		res.json(events)
 	} catch (error) {
 		console.error(error)

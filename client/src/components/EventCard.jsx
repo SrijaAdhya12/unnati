@@ -1,4 +1,4 @@
-import { faArrowRight, faLocation, faLocationPin, faShare } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faLocationPin, faShare } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const EventCard = ({ id, title, description, date, time, entryFee, location, organizer, type, thumbnail }) => {
@@ -7,6 +7,7 @@ const EventCard = ({ id, title, description, date, time, entryFee, location, org
 		meetup: 'text-blue-500',
 		workshop: 'text-red-500',
 	}
+	
 	return (
 		<div className="max-w-sm bg-white border  rounded-xl shadow">
 			<img className="h-42 w-96 ring-1 rounded-t-xl h-44 object-cover" src={thumbnail} alt="thumbnail" />
