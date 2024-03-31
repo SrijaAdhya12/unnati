@@ -11,7 +11,7 @@ const Testimonials = () => {
 			<Carousel showThumbs={false} showArrows={true}>
 				{testimonials.map((testimony) => (
 					<TestimonialCard key={testimony.id} {...testimony}>
-						<img src={testimony.image} className="z-10 w-64 h-96 object-cover" />
+						<img src={testimony.image} className="z-10 w-64 h-96 object-fill" />
 					</TestimonialCard>
 				))}
 			</Carousel>

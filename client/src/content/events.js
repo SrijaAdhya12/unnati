@@ -1,5 +1,6 @@
 export const events = [
 	{
+		id: 0,
 		title: 'Web Development Workshop',
 		description: 'A workshop for young girls to learn the basics of web development.',
 		date: new Date('2024-04-15'),
@@ -10,6 +11,7 @@ export const events = [
 		type: 'workshop',
 	},
 	{
+		id: 1,
 		title: 'Hackathon 2024',
 		description: 'An annual hackathon for women who are, tech enthusiasts.',
 		date: new Date('2024-05-20'),
@@ -20,6 +22,7 @@ export const events = [
 		type: 'hackathon',
 	},
 	{
+		id: 2,
 		title: 'Tech Meetup',
 		description: 'A meetup for women to discuss recent trends in technology.',
 		date: new Date('2024-06-10'),
