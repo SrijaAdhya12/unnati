@@ -11,6 +11,7 @@ export const serverOk = async () => {
 		console.error('Error fetching data:', error)
 	}
 }
+
 export const fetchData = async () => {
 	try {
 		const response = await api.get('/data')
@@ -18,5 +19,15 @@ export const fetchData = async () => {
 		return response.data
 	} catch (error) {
 		console.error('Error fetching data:', error)
+	}
+}
+
+export const fetchEvents = async () => {
+	try {
+		const response = await api.get('/events')
+
+		return response.data
+	} catch (error) {
+		console.error('Error fetching events:', error)
 	}
 }

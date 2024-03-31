@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const EventCard = ({ id, title, description, date, time, entryFee, location, organizer, type, thumbnail }) => {
 	const color = {
-		hackathon: 'green-500',
-		meetup: 'blue-500',
-		workshop: 'red-500',
+		hackathon: 'text-green-500',
+		meetup: 'text-blue-500',
+		workshop: 'text-red-500',
 	}
 	return (
 		<div className="max-w-sm bg-white border  rounded-xl shadow">
@@ -22,7 +22,7 @@ const EventCard = ({ id, title, description, date, time, entryFee, location, org
 				</div>
 				<div className="flex items-center justify-between my-5 flex-wrap text-black">
 					<div>
-						<h5 className={`text-2xl font-bold tracking-tight text-${color[type]}`}>{title}</h5>
+						<h5 className={`text-2xl font-bold tracking-tight ${color[type]}`}>{title}</h5>
 						<h5 className={`text-xl tracking-tight`}>By {organizer}</h5>
 					</div>
 					<p className="text-gray-600 font-bold text-xl">{entryFee < 1 ? 'FREE' : `$ ${entryFee}`}</p>
