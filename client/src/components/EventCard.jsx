@@ -9,7 +9,7 @@ const EventCard = ({ id, title, description, date, time, entryFee, location, org
 	}
 	return (
 		<div className="max-w-sm bg-white border  rounded-xl shadow">
-			<img className="h-42 w-96 ring-1 rounded-t-xl" src={thumbnail} alt="thumbnail" />
+			<img className="h-42 w-96 ring-1 rounded-t-xl h-44 object-cover" src={thumbnail} alt="thumbnail" />
 			<div className="p-5">
 				<div className="flex justify-between items-left flex-col w-full">
 					<p className="uppercase font-bold text-left text-yellow-700">
