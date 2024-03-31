@@ -120,28 +120,7 @@ $> npm start   # run the backEnd
 
 ![line]
 
-## Demo
-
-![Demo](demo.gif)
-
-![line]
-
-## Installation Guide
-
-![line]
-
-## Usage
-
-![line]
-
-
-## Contributing
-
-![line]
-
-## Lisense
-
-![line]
+## Contributions
 
 - [Srija Adhya](https://github.com/SrijaAdhya12):
     - Team Management
