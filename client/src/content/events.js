@@ -35,4 +35,28 @@ export const events = [
 		organizer: 'Rahul Sen', // Example organizer ID
 		type: 'meetup',
 	},
+	{
+		id: 3,
+		title: 'Tech Meetup',
+		description: 'A meetup for women to discuss recent trends in technology.',
+		thumbnail: 'https://miro.medium.com/v2/resize:fit:9216/1*NqdwB--128xNFXEyCRrkoQ.jpeg',
+		date: new Date('2024-06-10'),
+		time: '6:00 PM',
+		entryFee: 0,
+		location: 'Delhi, India',
+		organizer: 'Rahul Sen', // Example organizer ID
+		type: 'meetup',
+	},
+	{
+		id: 4,
+		title: 'Tech Meetup',
+		description: 'A meetup for women to discuss recent trends in technology.',
+		thumbnail: 'https://miro.medium.com/v2/resize:fit:9216/1*NqdwB--128xNFXEyCRrkoQ.jpeg',
+		date: new Date('2024-06-10'),
+		time: '6:00 PM',
+		entryFee: 0,
+		location: 'Delhi, India',
+		organizer: 'Rahul Sen', // Example organizer ID
+		type: 'meetup',
+	},
 ]

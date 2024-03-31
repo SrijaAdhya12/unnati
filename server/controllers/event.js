@@ -1,3 +1,4 @@
+
 import Event from '../models/event.js'
 
 // Get all events
@@ -46,16 +47,16 @@ export const getMeetups = async (req, res) => {
 
 // Create a new event
 export const createEvent = async (req, res) => {
-    try {
-        const eventData = req.body; // Assuming the request body contains event data
-        const newEvent = new Event(eventData);
-        const savedEvent = await newEvent.save();
-        res.status(201).json(savedEvent);
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ message: 'Server Error' });
-    }
-};
+	try {
+		const eventData = req.body // Assuming the request body contains event data
+		const newEvent = new Event(eventData)
+		const savedEvent = await newEvent.save()
+		res.status(201).json(savedEvent)
+	} catch (error) {
+		console.error(error)
+		res.status(500).json({ message: 'Server Error' })
+	}
+}
 
 // Update an existing event
 export const updateEvent = async (req, res) => {
