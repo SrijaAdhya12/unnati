@@ -13,15 +13,18 @@
 
 ## Table of Contents
 
-- [Domain](#domain)
 - [Problem Statement](#problem-statement)
+- [Domain](#domain)
 - [Proposed Solution](#proposed-solution)
-- [Future Scope](#future-scope)
-- [Tech Stack Used](#tech-stack-used)
+- [Tech Stacks](#tech-stacks)
+- [Installation Guide](#installation-guide)
+- [Usage](#usage)
+- [Contributing](#contributing)
 - [Preview](#preview)
 - [Demo](#demo)
 - [Contributions](#contributions)
 - [Team](#team)
+- [License](#license)
 
 ![line]
 
@@ -41,7 +44,6 @@
 
 ![line]
 
-
 ## Proposed Solution
 
 - Discover empowering blogs and articles tailored to women's personal and professional growth. From inspiring stories to practical tips on self-care and career advancement, find resources to help you thrive with confidence and resilience.
@@ -51,16 +53,7 @@
 
 ![line]
 
-
-## Future Scope
-
-- Add Stripe payment to accept donations.
-- Add more secure authentication protocols using Aadhar or PAN card.
-- Low interest loan system for poverty striken women.
-
-![line]
-
-## Tech Stack Used
+## Tech Stacks
 
 - MongoDB: For DataBase Management
 - ExpressJs: For BackEnd Routing
@@ -73,6 +66,33 @@
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Mongo DB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) ![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Node JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![JWT](https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+
+![line]
+
+## Installation Guide
+
+  1. Download NodeJS >18.0.1
+  2. Run the following commands for running client (frontEnd)
+  3. set up `.env` with the help of `.env.example` file in both client and server
+```sh
+$> cd client
+$> npm i       # install all packages
+$> npm run dev # run the frontend
+```
+  3. Run the following commands for running server (backEnd)
+```sh
+$> cd client
+$> npm i       # install all packages
+$> npm start   # run the backEnd
+```
+
+![line]
+
+## Future Scope
+
+- Add Stripe payment to accept donations.
+- Add more secure authentication protocols using Aadhar or PAN card.
+- Low interest loan system for poverty striken women.
 
 ![line]
 
