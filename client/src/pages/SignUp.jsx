@@ -45,7 +45,7 @@ const SignUp = () => {
 		return errors
 	}
 	return (
-		<div className="min-h-screen flex items-center justify-center w-full my-10">
+		<div className="flex items-center justify-center w-full my-10 mt-36 mb-40">
 			<Form heading="Join Us Now!" onSubmit={handleSubmit}>
 				<div className="mb-4">
 					<label htmlFor="username" className="block text-sm font-medium text-gray-700 mb-2">
@@ -69,11 +69,11 @@ const SignUp = () => {
 					<p className="text-red-500 text-xs italic h-3">{errors.password}</p>
 				</div>
 				<div className="flex items-center justify-end mb-4">
-					<a href="/login" className="text-xs text-indigo-500 hover:text-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+					<a href="/login" className="text-xs text-red-500 hover:text-red-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
 						Already have an account?
 					</a>
 				</div>
-				<button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+				<button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-red-500 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
 					SUBMIT
 				</button>
 			</Form>
