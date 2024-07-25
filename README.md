@@ -21,7 +21,7 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Preview](#preview)
-- [Demo](#demo)
+- [Designs](#designs)
 - [Contributions](#contributions)
 - [Team](#team)
 - [License](#license)
@@ -120,6 +120,13 @@ $> npm start   # run the backEnd
 
 ![line]
 
+## Designs
+
+![Unnati-erd](https://github.com/user-attachments/assets/f1fca6d6-0bb6-496e-8494-589557d0138f)
+
+![line]
+
+
 ## Contributions
 
 - [Srija Adhya](https://github.com/SrijaAdhya12):
@@ -138,6 +145,8 @@ $> npm start   # run the backEnd
     - Deployment
 
 ![line]
+
+
 
 ## Team
 
